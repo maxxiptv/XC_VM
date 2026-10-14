@@ -1,0 +1,73 @@
+XC_VM — Configuring Adult Channels for MAG/Ministra
+
+The MAG/Ministra portal has built-in parental-control functionality for adult channels.
+
+To ensure proper operation and avoid repeated PIN requests, adult categories should use the recognised category name For adults.
+
+Step 1 — Create or Rename an Adult Category
+
+1. Log in to the XC_VM administration panel.
+2. Navigate to category management.
+3. Create a new Live TV category or edit an existing adult category.
+4. Name the category For adults.
+5. Ensure the Adult / 18+ option is enabled.
+6. Save the changes.
+
+IMPORTANT: If your adult category was originally given a different name, there is no need to delete it or create a new one. Simply rename the existing category to For adults. Your existing channel assignments can remain unchanged.
+
+IMPORTANT — Category Naming
+
+The category name should be For adults.
+
+Capitalisation does not matter. The following variations are acceptable:
+
+* For adults
+* for adults
+* FOR ADULTS
+* For Adults
+
+The MAG/Ministra portal recognises this category naming convention for its built-in adult-content parental controls.
+
+Step 2 — Assign Adult Channels
+
+All adult channels must be assigned to the For adults category for correct parental-control behaviour on MAG devices.
+
+Adult channels may also be assigned to other categories simultaneously, such as Entertainment or any other custom category.
+
+For example, an adult channel may belong to both For adults and Entertainment.
+
+There is no need to remove the channel from other categories.
+
+All channels, including adult channels, automatically appear in the All category.
+
+Ensure the relevant categories and channels are included in the MAG account’s permitted bouquets.
+
+How Parental PIN Protection Works
+
+Scenario 1 — Accessing the For adults Category
+
+1. The user selects the For adults category.
+2. The MAG portal requests the parental PIN.
+3. After entering the correct PIN, the category opens.
+4. Channels within that category can be selected without a second PIN request.
+
+Scenario 2 — Accessing an Adult Channel from Another Category
+
+For example, an adult channel also appears in the Entertainment category or the automatically populated All category.
+
+1. The user opens the other category.
+2. The category opens normally without requesting a PIN.
+3. The user selects an adult channel.
+4. The MAG portal requests the parental PIN at channel selection rather than category selection.
+5. After entering the correct PIN, the channel opens.
+
+Expected Behaviour
+
+When configured as described:
+
+* The For adults category is protected by a PIN.
+* Adult channels accessed from For adults should not request the PIN twice.
+* Adult channels appearing in other categories remain PIN-protected individually.
+* Normal channels remain accessible without unnecessary PIN requests.
+
+Note: This category naming and assignment convention uses the original MAG/Ministra parental-control behaviour and can avoid the double-PIN issue without modifying the portal JavaScript.
